@@ -21,6 +21,8 @@ class CheckoutOptions {
   Color? payButtonColor;
   Color? cancelButtonColor;
   QRConfiguration? qrConfiguration;
+  // Backward compatibility getter for primary color
+  Color? get primary => backgroundColor;
 
   CheckoutOptions(
     this.amount,
