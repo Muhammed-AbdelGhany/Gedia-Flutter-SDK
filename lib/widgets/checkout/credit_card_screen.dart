@@ -81,7 +81,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
         body: Stack(
           children: [
             Container(
-              color: widget.checkoutOptions.backgroundColor,
+              color: widget.checkoutOptions.primary,
               child: SafeArea(
                 child: Column(
                   children: <Widget>[
@@ -142,7 +142,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                     : Icon(
                                         Icons.call_to_action_rounded,
                                         color: widget
-                                            .checkoutOptions.backgroundColor,
+                                            .checkoutOptions.primary,
                                       ),
                               ),
                               expiryDateDecoration: InputDecoration(
@@ -229,7 +229,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
-                                      backgroundColor:
+                                      primary:
                                           widget.checkoutOptions.payButtonColor,
                                     ),
                                     child: Container(
@@ -282,7 +282,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
-                                      backgroundColor: widget
+                                      primary: widget
                                           .checkoutOptions.cancelButtonColor,
                                     ),
                                     child: Container(
@@ -713,7 +713,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
         body: Stack(
           children: [
             Container(
-              color: widget.checkoutOptions.backgroundColor,
+              color: widget.checkoutOptions.primary,
               child: SafeArea(
                 child: Column(
                   children: <Widget>[
@@ -763,7 +763,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                     : Icon(
                                         Icons.call_to_action_rounded,
                                         color: widget
-                                            .checkoutOptions.backgroundColor,
+                                            .checkoutOptions.primary,
                                       ),
                               ),
                               expiryDateDecoration: InputDecoration(
@@ -850,7 +850,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
-                                      backgroundColor:
+                                      primary:
                                           widget.checkoutOptions.payButtonColor,
                                     ),
                                     child: Container(
@@ -911,7 +911,7 @@ class CreditCardScreenState extends State<CreditCardScreen> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
-                                      backgroundColor: widget
+                                      primary: widget
                                           .checkoutOptions.cancelButtonColor,
                                     ),
                                     child: Container(
