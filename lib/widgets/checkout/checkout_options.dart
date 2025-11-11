@@ -20,9 +20,10 @@ class CheckoutOptions {
   Color? textColor;
   Color? payButtonColor;
   Color? cancelButtonColor;
+  Color? primary;
   QRConfiguration? qrConfiguration;
   // Backward compatibility getter for primary color
-  Color? get primary => backgroundColor;
+  //Color? get primary => backgroundColor;
 
   CheckoutOptions(
     this.amount,
@@ -51,6 +52,7 @@ class CheckoutOptions {
       paymentOperation = null;
     }
     backgroundColor ??= const Color(0xff2c2222);
+    primary ??= const Color(0xff327da8);
     cardColor ??= const Color(0xffff4d00);
     textColor ??= const Color(0xffffffff);
     payButtonColor ??= const Color(0xffff4d00);
